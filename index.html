@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Basic HTML template" />
+    <title>Index</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <style>
+  
+    </style>
+    <!-- Optional: add Three.js
+    <script src="https://unpkg.com/three@0.155.0/build/three.min.js"></script>
+    -->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="lines-logo.png" alt="Lines Logo" height="23">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-center justify-content-end" id="navbarNav">
+                <ul class="navbar-nav" >
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      <canvas class="webgl d-none"></canvas>
+    <div class="mid"><div class="frame"></div></div>
+    <section  style="align-content:center">   
+      
+    <div class="container hero"  style="min-height: 100vh; align-content: center;">
+          <div class="row" >
+      <div class="col-lg-6" style="align-content:center;padding-top: 100px">
+        <img class="hero-logo" src="lines-logo.png" alt="logo lines">
+        <h1>La experiencia </br>de un buen <span id="keyword">corte</span></h1>
+    
+
+        <a class="btn btn-lines">Agenda tu hora     <svg id="Modo_de_aislamiento" style="width: 30px;margin-left:2px;transform: rotate(35deg) translate(5px,0px);" data-name="Modo de aislamiento" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path class="cls-1 left "   d="M17.85,0L6.73,19.01c-1.64-.84-3.62-.62-5.04.55-1.97,1.63-2.25,4.54-.63,6.51,1.63,1.97,4.54,2.25,6.51.63s2.25-4.54.63-6.51l11.24-15.56c1.14-1.64.14-3.63-1.59-4.63ZM4.63,25.91c-1.53,0-2.78-1.24-2.78-2.78s1.24-2.78,2.78-2.78,2.78,1.24,2.78,2.78-1.24,2.78-2.78,2.78Z"/>
+  <path class="cls-1 right "     d="M21.71,21.03c-1.16-2.28-3.95-3.18-6.22-2.02L4.37,0c-1.73,1-2.72,2.99-1.59,4.63l11.24,15.56c-1.17,1.42-1.39,3.4-.55,5.04,1.16,2.28,3.95,3.18,6.22,2.02,2.28-1.16,3.18-3.95,2.02-6.22ZM17.59,25.91c-1.53,0-2.78-1.24-2.78-2.78s1.24-2.78,2.78-2.78,2.78,1.24,2.78,2.78-1.24,2.78-2.78,2.78Z"/>
+</svg></a>
+</div>
+
+<div class="col-lg-6 " id="carWrap" style="position: relative;min-height: 600px;">
+<canvas id="chairCanvas"></canvas>
+<img  class=" car-img img-1" id="imgTop" src="img/img-1.png">
+<img class="car-img img-2" id="imgBottom" src="img/img-2.png">
+
+
+
+</div>
+
+</div>
+   </div>
+</section>
+ 
+   <section style="height: 100vh;"></section>
+
+    <script>
+        // App entry: attach scripts here
+        // Example: document.getElementById('app').textContent = 'Ready';
+    </script>
+  
+
+        <!-- Bootstrap JS bundle (includes Popper) -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+        <!-- ScrollSmoother requires ScrollTrigger -->
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollToPlugin.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/SplitText.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/TextPlugin.min.js"></script>
+    <script type="module" src="main.js"></script>
+
+      
+</body>
+</html></div>
